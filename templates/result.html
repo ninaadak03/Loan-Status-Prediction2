@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Status Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #8dc4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #4682b4;
+        }
+        .result {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #4682b4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Loan Status Prediction Result</h1>
+        <div class="result">
+            The loan application can be: <strong>{{ result }}</strong>
+        </div>
+    </div>
+</body>
+</html>
